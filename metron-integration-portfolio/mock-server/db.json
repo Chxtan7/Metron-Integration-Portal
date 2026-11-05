@@ -1,0 +1,1258 @@
+{
+  "catalog": {
+    "categories": [
+      {
+        "id": "threat-intelligence",
+        "name": "Threat Intelligence",
+        "color": "#8257d8",
+        "icon": "◎"
+      },
+      {
+        "id": "cspm",
+        "name": "CSPM",
+        "color": "#2862d9",
+        "icon": "◈"
+      },
+      {
+        "id": "email-security",
+        "name": "Email Security",
+        "color": "#079eaa",
+        "icon": "✉"
+      },
+      {
+        "id": "cnapp",
+        "name": "CNAPP",
+        "color": "#8257d8",
+        "icon": "⬡"
+      },
+      {
+        "id": "it-operations",
+        "name": "IT Operations",
+        "color": "#2862d9",
+        "icon": "▤"
+      },
+      {
+        "id": "soar",
+        "name": "SOAR",
+        "color": "#e98b32",
+        "icon": "⌘"
+      },
+      {
+        "id": "siem",
+        "name": "SIEM",
+        "color": "#27945c",
+        "icon": "▥"
+      },
+      {
+        "id": "cloud-security",
+        "name": "Cloud Security",
+        "color": "#159fc9",
+        "icon": "☁"
+      }
+    ],
+    "integrations": [
+      {
+        "id": "1password",
+        "name": "1Password",
+        "initials": "1",
+        "image": "https://www.google.com/s2/favicons?domain=1password.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "42gears",
+        "name": "42Gears",
+        "initials": "4",
+        "image": "https://www.google.com/s2/favicons?domain=42gears.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "abuseipdb",
+        "name": "AbuseIPDB",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=abuseipdb.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "aims",
+        "name": "AIMS",
+        "initials": "A",
+        "image": "data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22192%22%20height%3D%22192%22%20viewBox%3D%220%200%20160%20160%22%20role%3D%22img%22%20aria-label%3D%22AIMS%20logo%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22brandGradient%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%23F59E0B%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23122a7d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2228%22%20fill%3D%22url(%23brandGradient)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22125%22%20cy%3D%2233%22%20r%3D%2216%22%20fill%3D%22rgba(255%2C255%2C255%2C0.12)%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2226%22%20y%3D%2226%22%20width%3D%22108%22%20height%3D%22108%22%20rx%3D%2222%22%20fill%3D%22rgba(255%2C255%2C255%2C0.06)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2280%22%20cy%3D%2282%22%20r%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C0.18)%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2280%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20letter-spacing%3D%22-1%22%3EA%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2280%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2210.5%22%20font-weight%3D%22700%22%20fill%3D%22%23edf6ff%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20letter-spacing%3D%221.2%22%3EAIMS%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "alien-labs-otx",
+        "name": "Alien Labs OTX",
+        "initials": "AL",
+        "image": "https://www.google.com/s2/favicons?domain=alienvault.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "alienvault",
+        "name": "AlienVault",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=alienvault.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "amazon",
+        "name": "Amazon",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "analyst1",
+        "name": "Analyst1",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=analyst1.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "anomali",
+        "name": "Anomali",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=anomali.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "aqua-security",
+        "name": "Aqua Security",
+        "initials": "AS",
+        "image": "https://www.google.com/s2/favicons?domain=aqua.security&sz=128",
+        "categoryIds": [
+          "cspm",
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "armis",
+        "name": "Armis",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=armis.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "aruba",
+        "name": "Aruba",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=hpe.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "at-bay",
+        "name": "At-Bay",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=at-bay.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "at-t",
+        "name": "AT&T",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=att.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "atlassian",
+        "name": "Atlassian",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=atlassian.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "attackiq",
+        "name": "AttackIQ",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=attackiq.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "auth0",
+        "name": "Auth0",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=auth0.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "automox",
+        "name": "Automox",
+        "initials": "A",
+        "image": "https://www.google.com/s2/favicons?domain=automox.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "aws-security-hub",
+        "name": "AWS Security Hub",
+        "initials": "AS",
+        "image": "https://www.google.com/s2/favicons?domain=aws.amazon.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "beyondtrust",
+        "name": "BeyondTrust",
+        "initials": "B",
+        "image": "https://www.google.com/s2/favicons?domain=beyondtrust.com&sz=128",
+        "categoryIds": [
+          "soar"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "blackberry",
+        "name": "BlackBerry",
+        "initials": "B",
+        "image": "https://www.google.com/s2/favicons?domain=blackberry.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "bluecat-networks",
+        "name": "BlueCat Networks",
+        "initials": "BN",
+        "image": "https://www.google.com/s2/favicons?domain=bluecatnetworks.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "box",
+        "name": "Box",
+        "initials": "B",
+        "image": "https://www.google.com/s2/favicons?domain=box.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "check-point",
+        "name": "Check Point",
+        "initials": "CP",
+        "image": "https://www.google.com/s2/favicons?domain=checkpoint.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "check-point-cloudguard",
+        "name": "Check Point CloudGuard",
+        "initials": "CP",
+        "image": "https://www.google.com/s2/favicons?domain=checkpoint.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "cisco",
+        "name": "Cisco",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=cisco.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "cloudflare",
+        "name": "Cloudflare",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=cloudflare.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "cribl",
+        "name": "Cribl",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=cribl.io&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "criminal-ip",
+        "name": "Criminal IP",
+        "initials": "CI",
+        "image": "https://www.google.com/s2/favicons?domain=criminalip.io&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "crowdstrike",
+        "name": "CrowdStrike",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "crowdstrike-falcon-cloud-security",
+        "name": "CrowdStrike Falcon Cloud Security",
+        "initials": "CF",
+        "image": "https://www.google.com/s2/favicons?domain=crowdstrike.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "cyberark",
+        "name": "CyberArk",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=cyberark.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "cybereason",
+        "name": "Cybereason",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=cybereason.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "cycognito",
+        "name": "CyCognito",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=cycognito.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "cylus",
+        "name": "Cylus",
+        "initials": "C",
+        "image": "https://www.google.com/s2/favicons?domain=cylus.com&sz=128",
+        "categoryIds": [
+          "it-operations"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "darktrace",
+        "name": "Darktrace",
+        "initials": "D",
+        "image": "https://www.google.com/s2/favicons?domain=darktrace.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "docker",
+        "name": "Docker",
+        "initials": "D",
+        "image": "https://www.google.com/s2/favicons?domain=docker.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "exabeam",
+        "name": "Exabeam",
+        "initials": "E",
+        "image": "https://www.google.com/s2/favicons?domain=exabeam.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "f5-distributed-cloud-services",
+        "name": "F5 Distributed Cloud Services",
+        "initials": "FD",
+        "image": "https://www.google.com/s2/favicons?domain=f5.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "forescout",
+        "name": "Forescout",
+        "initials": "F",
+        "image": "https://www.google.com/s2/favicons?domain=forescout.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "google-security-command-center",
+        "name": "Google Security Command Center",
+        "initials": "GS",
+        "image": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "graylog",
+        "name": "Graylog",
+        "initials": "G",
+        "image": "https://www.google.com/s2/favicons?domain=graylog.org&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "hackerone",
+        "name": "HackerOne",
+        "initials": "H",
+        "image": "https://www.google.com/s2/favicons?domain=hackerone.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "hashicorp",
+        "name": "HashiCorp",
+        "initials": "H",
+        "image": "https://www.google.com/s2/favicons?domain=hashicorp.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "honeywell",
+        "name": "Honeywell",
+        "initials": "H",
+        "image": "https://www.google.com/s2/favicons?domain=honeywell.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "hp",
+        "name": "HP",
+        "initials": "H",
+        "image": "https://www.google.com/s2/favicons?domain=hp.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "ibm",
+        "name": "IBM",
+        "initials": "I",
+        "image": "https://www.google.com/s2/favicons?domain=ibm.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "infoblox",
+        "name": "Infoblox",
+        "initials": "I",
+        "image": "https://www.google.com/s2/favicons?domain=infoblox.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "joe-sandbox",
+        "name": "Joe Sandbox",
+        "initials": "JS",
+        "image": "https://www.google.com/s2/favicons?domain=joesandbox.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "jumpcloud",
+        "name": "JumpCloud",
+        "initials": "J",
+        "image": "https://www.google.com/s2/favicons?domain=jumpcloud.com&sz=128",
+        "categoryIds": [
+          "siem"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "jupiterone",
+        "name": "JupiterOne",
+        "initials": "J",
+        "image": "https://www.google.com/s2/favicons?domain=jupiterone.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "keeper",
+        "name": "Keeper",
+        "initials": "K",
+        "image": "data:image/svg+xml;charset=utf-8,%0A%20%20%20%20%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22192%22%20height%3D%22192%22%20viewBox%3D%220%200%20160%20160%22%20role%3D%22img%22%20aria-label%3D%22Keeper%20logo%22%3E%0A%20%20%20%20%20%20%3Cdefs%3E%0A%20%20%20%20%20%20%20%20%3ClinearGradient%20id%3D%22brandGradient%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%220%25%22%20stop-color%3D%22%237C3AED%22%2F%3E%0A%20%20%20%20%20%20%20%20%20%20%3Cstop%20offset%3D%22100%25%22%20stop-color%3D%22%23122a7d%22%2F%3E%0A%20%20%20%20%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%20%20%20%20%3C%2Fdefs%3E%0A%20%20%20%20%20%20%3Crect%20width%3D%22160%22%20height%3D%22160%22%20rx%3D%2228%22%20fill%3D%22url(%23brandGradient)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%22125%22%20cy%3D%2233%22%20r%3D%2216%22%20fill%3D%22rgba(255%2C255%2C255%2C0.12)%22%2F%3E%0A%20%20%20%20%20%20%3Crect%20x%3D%2226%22%20y%3D%2226%22%20width%3D%22108%22%20height%3D%22108%22%20rx%3D%2222%22%20fill%3D%22rgba(255%2C255%2C255%2C0.06)%22%2F%3E%0A%20%20%20%20%20%20%3Ccircle%20cx%3D%2280%22%20cy%3D%2282%22%20r%3D%2234%22%20fill%3D%22rgba(255%2C255%2C255%2C0.18)%22%2F%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2280%22%20y%3D%2290%22%20text-anchor%3D%22middle%22%20font-size%3D%2238%22%20font-weight%3D%22800%22%20fill%3D%22%23ffffff%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20letter-spacing%3D%22-1%22%3EK%3C%2Ftext%3E%0A%20%20%20%20%20%20%3Ctext%20x%3D%2280%22%20y%3D%22122%22%20text-anchor%3D%22middle%22%20font-size%3D%2210.5%22%20font-weight%3D%22700%22%20fill%3D%22%23edf6ff%22%20font-family%3D%22Segoe%20UI%2C%20Arial%2C%20sans-serif%22%20letter-spacing%3D%221.2%22%3EKEEPER%3C%2Ftext%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "keeper-security",
+        "name": "Keeper Security",
+        "initials": "KS",
+        "image": "https://www.google.com/s2/favicons?domain=keepersecurity.com&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "kivera",
+        "name": "Kivera",
+        "initials": "K",
+        "image": "https://www.google.com/s2/favicons?domain=kivera.io&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "kubernetes",
+        "name": "Kubernetes",
+        "initials": "K",
+        "image": "https://www.google.com/s2/favicons?domain=kubernetes.io&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "lacework",
+        "name": "Lacework",
+        "initials": "L",
+        "image": "https://www.google.com/s2/favicons?domain=lacework.com&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "lacework-forticnapp",
+        "name": "Lacework FortiCNAPP",
+        "initials": "LF",
+        "image": "https://www.google.com/s2/favicons?domain=fortinet.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "logrhythm",
+        "name": "LogRhythm",
+        "initials": "L",
+        "image": "https://www.google.com/s2/favicons?domain=logrhythm.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "malwarebytes",
+        "name": "Malwarebytes",
+        "initials": "M",
+        "image": "https://www.google.com/s2/favicons?domain=malwarebytes.com&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "mandiant",
+        "name": "Mandiant",
+        "initials": "M",
+        "image": "https://www.google.com/s2/favicons?domain=mandiant.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "mattermost",
+        "name": "Mattermost",
+        "initials": "M",
+        "image": "https://www.google.com/s2/favicons?domain=mattermost.com&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "micro-focus",
+        "name": "Micro Focus",
+        "initials": "MF",
+        "image": "https://www.google.com/s2/favicons?domain=opentext.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "microsoft",
+        "name": "Microsoft",
+        "initials": "M",
+        "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "microsoft-defender-for-cloud",
+        "name": "Microsoft Defender for Cloud",
+        "initials": "MD",
+        "image": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "mimecast",
+        "name": "Mimecast",
+        "initials": "M",
+        "image": "https://www.google.com/s2/favicons?domain=mimecast.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "misp-tip",
+        "name": "MISP TIP",
+        "initials": "MT",
+        "image": "https://www.google.com/s2/favicons?domain=misp-project.org&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "netskope",
+        "name": "Netskope",
+        "initials": "N",
+        "image": "https://www.google.com/s2/favicons?domain=netskope.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "oauth",
+        "name": "OAuth",
+        "initials": "O",
+        "image": "https://www.google.com/s2/favicons?domain=oauth.net&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "ocsf",
+        "name": "OCSF",
+        "initials": "O",
+        "image": "https://www.google.com/s2/favicons?domain=ocsf.io&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "okta",
+        "name": "Okta",
+        "initials": "O",
+        "image": "https://www.google.com/s2/favicons?domain=okta.com&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "oracle",
+        "name": "Oracle",
+        "initials": "O",
+        "image": "https://www.google.com/s2/favicons?domain=oracle.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "orca-security",
+        "name": "Orca Security",
+        "initials": "OS",
+        "image": "https://www.google.com/s2/favicons?domain=orca.security&sz=128",
+        "categoryIds": [
+          "cspm",
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "pagerduty",
+        "name": "PagerDuty",
+        "initials": "P",
+        "image": "https://www.google.com/s2/favicons?domain=pagerduty.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "palo-alto-networks",
+        "name": "Palo Alto Networks",
+        "initials": "PA",
+        "image": "https://www.google.com/s2/favicons?domain=paloaltonetworks.com&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "palo-alto-networks-prisma-cloud",
+        "name": "Palo Alto Networks Prisma Cloud",
+        "initials": "PA",
+        "image": "https://www.google.com/s2/favicons?domain=paloaltonetworks.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "pingone",
+        "name": "PingOne",
+        "initials": "P",
+        "image": "https://www.google.com/s2/favicons?domain=pingidentity.com&sz=128",
+        "categoryIds": [
+          "cnapp"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "prometheus",
+        "name": "Prometheus",
+        "initials": "P",
+        "image": "https://www.google.com/s2/favicons?domain=prometheus.io&sz=128",
+        "categoryIds": [
+          "cloud-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "qualys",
+        "name": "Qualys",
+        "initials": "Q",
+        "image": "https://www.google.com/s2/favicons?domain=qualys.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "qualys-totalcloud",
+        "name": "Qualys TotalCloud",
+        "initials": "QT",
+        "image": "https://www.google.com/s2/favicons?domain=qualys.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "radiflow",
+        "name": "Radiflow",
+        "initials": "R",
+        "image": "https://www.google.com/s2/favicons?domain=radiflow.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "rapid7-insightcloudsec",
+        "name": "Rapid7 InsightCloudSec",
+        "initials": "RI",
+        "image": "https://www.google.com/s2/favicons?domain=rapid7.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "recorded-future",
+        "name": "Recorded Future",
+        "initials": "RF",
+        "image": "https://www.google.com/s2/favicons?domain=recordedfuture.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "reftab",
+        "name": "Reftab",
+        "initials": "R",
+        "image": "https://www.google.com/s2/favicons?domain=reftab.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "remediant",
+        "name": "Remediant",
+        "initials": "R",
+        "image": "https://www.google.com/s2/favicons?domain=sentinelone.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "safebreach",
+        "name": "SafeBreach",
+        "initials": "S",
+        "image": "https://www.google.com/s2/favicons?domain=safebreach.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "samurai-xdr",
+        "name": "Samurai XDR",
+        "initials": "SX",
+        "image": "https://www.google.com/s2/favicons?domain=samuraixdr.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "sentinelone",
+        "name": "SentinelOne",
+        "initials": "S",
+        "image": "https://www.google.com/s2/favicons?domain=sentinelone.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "silverfort",
+        "name": "Silverfort",
+        "initials": "S",
+        "image": "https://www.google.com/s2/favicons?domain=silverfort.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "slack",
+        "name": "Slack",
+        "initials": "S",
+        "image": "https://www.google.com/s2/favicons?domain=slack.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "snowflake",
+        "name": "Snowflake",
+        "initials": "S",
+        "image": "https://www.google.com/s2/favicons?domain=snowflake.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "splunk",
+        "name": "Splunk",
+        "initials": "S",
+        "image": "https://www.google.com/s2/favicons?domain=splunk.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "sumo-logic",
+        "name": "Sumo Logic",
+        "initials": "SL",
+        "image": "https://www.google.com/s2/favicons?domain=sumologic.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "symantec",
+        "name": "Symantec",
+        "initials": "S",
+        "image": "https://www.google.com/s2/favicons?domain=symantec.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "tanium",
+        "name": "Tanium",
+        "initials": "T",
+        "image": "https://www.google.com/s2/favicons?domain=tanium.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "tenable",
+        "name": "Tenable",
+        "initials": "T",
+        "image": "https://www.google.com/s2/favicons?domain=tenable.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "tenable-cloud-security",
+        "name": "Tenable Cloud Security",
+        "initials": "TC",
+        "image": "https://www.google.com/s2/favicons?domain=tenable.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "threatquotient",
+        "name": "ThreatQuotient",
+        "initials": "T",
+        "image": "https://www.google.com/s2/favicons?domain=threatq.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "tines",
+        "name": "Tines",
+        "initials": "T",
+        "image": "https://www.google.com/s2/favicons?domain=tines.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "trellix",
+        "name": "Trellix",
+        "initials": "T",
+        "image": "https://www.google.com/s2/favicons?domain=trellix.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "trend-micro",
+        "name": "Trend Micro",
+        "initials": "TM",
+        "image": "https://www.google.com/s2/favicons?domain=trendmicro.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "vectra",
+        "name": "Vectra",
+        "initials": "V",
+        "image": "https://www.google.com/s2/favicons?domain=vectra.ai&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "veeam",
+        "name": "Veeam",
+        "initials": "V",
+        "image": "https://www.google.com/s2/favicons?domain=veeam.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "virustotal",
+        "name": "VirusTotal",
+        "initials": "V",
+        "image": "https://www.google.com/s2/favicons?domain=virustotal.com&sz=128",
+        "categoryIds": [
+          "threat-intelligence"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "vmray",
+        "name": "VMRay",
+        "initials": "V",
+        "image": "https://www.google.com/s2/favicons?domain=vmray.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "votiro",
+        "name": "Votiro",
+        "initials": "V",
+        "image": "https://www.google.com/s2/favicons?domain=votiro.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "wiz",
+        "name": "Wiz",
+        "initials": "W",
+        "image": "https://www.google.com/s2/favicons?domain=wiz.io&sz=128",
+        "categoryIds": [
+          "cspm",
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "zix",
+        "name": "Zix",
+        "initials": "Z",
+        "image": "https://www.google.com/s2/favicons?domain=zix.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "zscaler",
+        "name": "Zscaler",
+        "initials": "Z",
+        "image": "https://www.google.com/s2/favicons?domain=zscaler.com&sz=128",
+        "categoryIds": [
+          "email-security"
+        ],
+        "description": "",
+        "status": "Available"
+      },
+      {
+        "id": "zscaler-posture-control",
+        "name": "Zscaler Posture Control",
+        "initials": "ZP",
+        "image": "https://www.google.com/s2/favicons?domain=zscaler.com&sz=128",
+        "categoryIds": [
+          "cspm"
+        ],
+        "description": "",
+        "status": "Available"
+      }
+    ]
+  }
+}

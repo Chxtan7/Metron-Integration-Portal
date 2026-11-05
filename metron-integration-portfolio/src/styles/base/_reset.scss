@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as *;
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: $font-family-base;
+  color: $text-primary;
+  background: $background-main;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input, select { font: inherit; }
+button { cursor: pointer; }
+a { text-decoration: none; }

@@ -1,0 +1,31 @@
+{
+  "name": "metron-integration-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "mock:server": "json-server --watch mock-server/db.json --port 3001",
+    "start:mock": "node mock-server/server.mjs",
+    "dev:all": "concurrently -k -n mock,vite \"json-server --watch mock-server/db.json --port 3001\" \"vite --host 0.0.0.0\"",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.14.0",
+    "bootstrap": "^5.3.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "concurrently": "^10.0.6",
+    "json-server": "^0.17.4",
+    "sass-embedded": "^1.89.2",
+    "typescript": "~5.8.3",
+    "vite": "^7.1.2"
+  }
+}

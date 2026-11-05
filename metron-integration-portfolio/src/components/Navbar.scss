@@ -1,0 +1,26 @@
+@use '../styles/abstracts/variables' as *;
+
+.metron-header { position: sticky; top: 0; z-index: 1000; }
+.metron-navbar {
+  min-height: $navbar-height;
+  padding: 0;
+  background: linear-gradient(105deg, $metron-primary, $metron-secondary);
+  .container-wide { min-height: $navbar-height; }
+}
+.metron-brand { display: inline-flex; align-items: center; gap: 9px; color: #fff !important; margin-right: 28px; }
+.brand-mark { display: grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; background: $metron-accent; color: #fff; font-size: 29px; font-weight: 800; line-height: 1; }
+.brand-word { display: flex; flex-direction: column; line-height: 1; strong { font-size: 22px; letter-spacing: -.5px; } small { margin-top: 3px; font-size: 10px; font-weight: 700; } }
+.metron-links { gap: clamp(8px, 1.35vw, 22px); }
+.metron-links .nav-link { color: #fff; font-size: 12px; font-weight: 600; white-space: nowrap; padding-inline: 0; }
+.metron-links .nav-link:hover { color: #ffd4bf; }
+.nav-link-button { border: 0; background: transparent; }
+.chevron { margin-left: 4px; }
+.metron-contact { margin-left: 24px; padding: 10px 20px; border: 0; border-radius: 9px; background: $metron-accent; color: #fff; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.metron-contact:hover { color: #fff; filter: brightness(.95); }
+.metron-toggler { border-color: rgba(255,255,255,.55); span { display: block; width: 22px; height: 2px; margin: 5px; background: white; } }
+@media (max-width: 991px) {
+  .metron-navbar { padding: 10px 0; }
+  .metron-links { align-items: stretch !important; padding-top: 14px; gap: 2px; }
+  .metron-links .nav-link { padding: 9px 0; text-align: left; }
+  .metron-contact { display: inline-block; margin: 12px 0 4px; }
+}
