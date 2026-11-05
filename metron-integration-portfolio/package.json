@@ -5,9 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "mock:server": "json-server --watch mock-server/db.json --port 3001",
+    "mock:server": "json-server --watch db.json --host 0.0.0.0 --port $PORT",
     "start:mock": "node mock-server/server.mjs",
-    "dev:all": "concurrently -k -n mock,vite \"json-server --watch mock-server/db.json --port 3001\" \"vite --host 0.0.0.0\"",
+    "dev:all": "concurrently -k -n mock,vite \"json-server --watch mock-server/db.json --host 0.0.0.0 --port $PORT\" \"vite --host 0.0.0.0\"",
     "build": "tsc -b && vite build",
     "preview": "vite preview"
   },
